@@ -19,6 +19,7 @@
 		FCD7BB7327444C57001F6D12 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD7BB7227444C57001F6D12 /* MovieDetailViewController.swift */; };
 		FCD7BB77274453C1001F6D12 /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD7BB76274453C1001F6D12 /* MovieTableViewController.swift */; };
 		FCD7BB792744564C001F6D12 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD7BB782744564C001F6D12 /* MovieTableViewCell.swift */; };
+		FCD7BB7B27445E70001F6D12 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD7BB7A27445E70001F6D12 /* Film.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		FCD7BB7227444C57001F6D12 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 		FCD7BB76274453C1001F6D12 /* MovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
 		FCD7BB782744564C001F6D12 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		FCD7BB7A27445E70001F6D12 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				FCD7BB6427443BD2001F6D12 /* Song.swift */,
+				FCD7BB7A27445E70001F6D12 /* Film.swift */,
 				FCD7BB6627443D5D001F6D12 /* DataManager.swift */,
 			);
 			path = Model;
@@ -193,6 +196,7 @@
 				FCD7BB792744564C001F6D12 /* MovieTableViewCell.swift in Sources */,
 				FCD7BB6327442434001F6D12 /* TrackTableViewController.swift in Sources */,
 				FCD7BB4A27441866001F6D12 /* AppDelegate.swift in Sources */,
+				FCD7BB7B27445E70001F6D12 /* Film.swift in Sources */,
 				FCD7BB77274453C1001F6D12 /* MovieTableViewController.swift in Sources */,
 				FCD7BB4C27441866001F6D12 /* SceneDelegate.swift in Sources */,
 				FCD7BB7327444C57001F6D12 /* MovieDetailViewController.swift in Sources */,
