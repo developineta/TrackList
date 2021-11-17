@@ -56,10 +56,10 @@ class DataManager {
             "YG - Stop Snitching",
         ]
     
-    var filmName = [
+    var movieName = [
             "Back To The Future",
             "Batman",
-            "Da Vinci",
+            "Da Vinci Code",
             "Matrix",
             "Star Wars",
             "The Mask"
@@ -78,6 +78,7 @@ class DataManager {
             "Back To The Future - 1985",
             "Batman - 1966",
             "Da Vinci Code - 2006",
+            "Matrix - 1999",
             "Star Wars - 1977",
             "The Mask - 1994"
         ]
