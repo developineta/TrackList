@@ -123,7 +123,7 @@
                 <navigationController id="h3v-Rk-VfQ" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="film" catalog="system" id="jFw-vR-h25"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="lOT-66-Y1B">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -152,7 +152,7 @@
                                             <constraint firstAttribute="height" constant="240" id="k2D-Jc-O6S"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9L5-nG-qsF">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9L5-nG-qsF">
                                         <rect key="frame" x="0.0" y="269" width="240" height="68"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="240" id="CKb-xO-SkV"/>
@@ -248,7 +248,7 @@
                     <tabBarItem key="tabBarItem" title="" image="music.note" catalog="system" id="c77-9c-x30"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="eaf-Xe-Olb">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
