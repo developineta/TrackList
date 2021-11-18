@@ -8,19 +8,25 @@
 import Foundation
 
 struct Movie {
-    let movieName: String
-    let year: String
-    let poster: String
+    var movieName: String
+    var year: Int
+    var poster: String
+    var movieGenre: String
+    var description: String
+    var trailerUrlString: String
     
     static func createMovie() -> [Movie]{
         var movies: [Movie] = []
         
-        let movieNames = DataManager.shared.movieName
-        let years = DataManager.shared.year
-        let posters = DataManager.shared.poster
+        let movieNames = DataManager.shared.movieNames
+        let years = DataManager.shared.years
+        let posters = DataManager.shared.posters
+        let movieGenres = DataManager.shared.movieGenres
+        let descriptions = DataManager.shared.movieDescriptions
+        let trailerUrlStrings = DataManager.shared.movieTrailerUrls
         
-        for index in 0..<movieNames.count {
-            let movie = Movie(movieName: movieNames[index], year: years[index], poster: posters[index])
+        for i in 0..<movieNames.count {
+            let movie = Movie(movieName: movieNames[i], year: years[i], poster: posters[i], movieGenre: movieGenres[i], description: descriptions[i], trailerUrlString: trailerUrlStrings[i])
             movies.append(movie)
         }
         

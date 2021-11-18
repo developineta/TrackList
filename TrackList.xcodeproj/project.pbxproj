@@ -20,7 +20,6 @@
 		FCD7BB77274453C1001F6D12 /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD7BB76274453C1001F6D12 /* MovieTableViewController.swift */; };
 		FCD7BB792744564C001F6D12 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD7BB782744564C001F6D12 /* MovieTableViewCell.swift */; };
 		FCD7BB7B27445E70001F6D12 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD7BB7A27445E70001F6D12 /* Movie.swift */; };
-		FCEF75672745214E0096C64B /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = FCEF75662745214E0096C64B /* play.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +38,6 @@
 		FCD7BB76274453C1001F6D12 /* MovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
 		FCD7BB782744564C001F6D12 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		FCD7BB7A27445E70001F6D12 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
-		FCEF75662745214E0096C64B /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = ../../../../../Downloads/play.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +76,6 @@
 				FCD7BB5E27441EAE001F6D12 /* Controllers */,
 				FCD7BB5227441869001F6D12 /* Assets.xcassets */,
 				FCD7BB5727441869001F6D12 /* Info.plist */,
-				FCEF75662745214E0096C64B /* play.png */,
 			);
 			path = TrackList;
 			sourceTree = "<group>";
@@ -182,7 +179,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCD7BB5627441869001F6D12 /* LaunchScreen.storyboard in Resources */,
-				FCEF75672745214E0096C64B /* play.png in Resources */,
 				FCD7BB5327441869001F6D12 /* Assets.xcassets in Resources */,
 				FCD7BB5127441866001F6D12 /* Main.storyboard in Resources */,
 			);

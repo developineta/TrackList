@@ -17,24 +17,22 @@ class MovieTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 1
-    }
-
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return movies.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "movieCell", for: indexPath)
-        as! MovieTableViewCell              // casting as
+        guard let cell =
+                tableView.dequeueReusableCell(withIdentifier: "movieCell", for: indexPath)
+                as? MovieTableViewCell else {return UITableViewCell()}           // casting as
 
         let movie = movies[indexPath.row]
         
-        cell.movieLblView?.text = movie.movieName
-        cell.movieImgView?.image = UIImage(named: movie.poster)
+        cell.movieLblView.text = movie.movieName
+        cell.movieImgView.image = UIImage(named: movie.poster)
+        cell.genreLabel.text = "Genre: \(movie.movieGenre)"
+        cell.yearLabel.text = "Year: \(movie.year)"
         
         return cell
     }
@@ -48,7 +46,7 @@ class MovieTableViewController: UITableViewController {
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let indexPath = tableView.indexPathForSelectedRow {
-            print("indexPath: ", indexPath)
+            //print("indexPath: ", indexPath)
         // Get the new view controller using segue.destination.
             let detailVC = segue.destination as! MovieDetailViewController
         // Pass the selected object to the new view controller.
