@@ -14,11 +14,10 @@ class MovieTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
+    
     // MARK: - Table view data source
-
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
         return movies.count
     }
     
@@ -26,7 +25,7 @@ class MovieTableViewController: UITableViewController {
         guard let cell =
                 tableView.dequeueReusableCell(withIdentifier: "movieCell", for: indexPath)
                 as? MovieTableViewCell else {return UITableViewCell()}           // casting as
-
+        
         let movie = movies[indexPath.row]
         
         cell.movieLblView.text = movie.movieName
@@ -42,14 +41,14 @@ class MovieTableViewController: UITableViewController {
     }
     
     // MARK: - Navigation
-
+    
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let indexPath = tableView.indexPathForSelectedRow {
             //print("indexPath: ", indexPath)
-        // Get the new view controller using segue.destination.
+            // Get the new view controller using segue.destination.
             let detailVC = segue.destination as! MovieDetailViewController
-        // Pass the selected object to the new view controller.
+            // Pass the selected object to the new view controller.
             detailVC.movie = movies[indexPath.row]
         }
     }
